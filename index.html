@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>proyecto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="seccion-principal">
+
+        <header class="menu-del-juego">
+            <button class="btn-menu">🏆 TOP</button>
+            <h1 class="titulo-del-juego">AVELAID</h1>
+            <button class="btn-menu">CONECTAR WALLET</button>
+        </header>
+
+        <div class="btn-nivel">
+            <input type="range" class="nivel-del-juego" disabled>
+        </div>
+
+        <!-- ÁREA DE JUEGO -->
+        <section class="seccion-del-juego">
+            <div class="info-game">
+                <div class="game">❤️ 3</div>
+                <div class="game">🕔 30seg</div>
+                <div class="game">🙎 .</div>
+                <div class="pvp">
+                    <button class="game" id="btn-pvp">🎮 PVP</button> <!-- Botón vinculado al JS -->
+                </div>
+            </div>
+
+            <!-- Aquí se inyectará dinámicamente el área de juego con JS -->
+
+            <footer class="controles">
+                <button class="boton-del-juego">izquierda</button>
+                <button class="boton-del-juego">derecha</button>
+            </footer>
+        </section>
+
+        <div class="redes-sociales">
+            <button class="social">Telegram</button>
+            <button class="social">Twitter</button>
+            <button class="social">GitHub</button>
+            <button class="social">Instagram</button>
+        </div>
+
+        <section class="contenido-del-juego">
+            <h3 class="text-game">
+                Compite en partidas PvP 
+                en tiempo real donde tu única misión es sobrevivir.
+            </h3>
+            <p class="text-game">
+                Tienes 3 vidas y deberás esquivar objetos cada vez más rápidos.
+                La dificultad aumenta cada 30 segundos.
+            </p>
+            <p class="text-game">
+                Sin registros: conecta tu wallet, compra AveCoin y empieza a jugar.
+                ¡Demuestra que puedes ser el último en pie!
+            </p>
+        </section>
+
+        <div class="wallets">
+            <button class="billeteras">PancakeSwap</button>
+            <button class="billeteras">Uniswap</button>
+            <button class="billeteras">SushiSwap</button>
+            <button class="billeteras">Balancer</button>
+        </div>
+
+        <footer class="final-del-contenido">
+            <p class="contenido-final">"Todos los derechos reservados © 2025 AVELAID"</p>
+        </footer>
+
+    </section>
+
+    <!-- 📦 Carga del archivo JavaScript -->
+    <script src="juego.js"></script>
+
+</body>
+</html>
